@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AliController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +18,5 @@ Route::get('/', function () {
     return view('admin.index');
 });
 Route::get('logs', [\Rap2hpoutre\LaravelLogViewer\LogViewerController::class, 'index']);
+Route::get('test',[AliController::class, 'index']);
 
