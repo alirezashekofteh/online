@@ -1,6 +1,6 @@
 	<!-- Loader -->
 	<div id="global-loader">
-		<img src="assets/img/loader.svg" class="loader-img" alt="لودر">
+		<img src="/assets/img/loader.svg" class="loader-img" alt="لودر">
 	</div>
 	<!-- /Loader -->
 	<!-- main-sidebar -->
